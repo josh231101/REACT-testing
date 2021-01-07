@@ -34,7 +34,7 @@ const App = () => {
       </ul>
 
       <form onSubmit={handleSubmit}>
-        <label>What needs to be done?</label>
+        <label for="new-todo">What needs to be done?</label>
         <br />
         <input id="new-todo" value={text} onChange={handleChange} />
         <button>Add #{items.length + 1}</button>
